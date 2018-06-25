@@ -8,6 +8,7 @@ const VideoListItem = ({video, onVideoSelect}) => {
 
 
     return (
+        /* When the list item video is clicked raise the onVideoSelect callback function and change the state of videoSelected property in the App component */
         <li onClick={() => onVideoSelect(video)} className="list-group-item">
             <div className="video-list media">
                 <div className="media-left">
