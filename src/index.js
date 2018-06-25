@@ -6,7 +6,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyDJSosuBDU0rOX__G8oAv3qOCUrYg2CYaY';
+const API_KEY = ''; // Copy paste your youtube api search key credentials
 
 // IMPORTANT: The way that react work with fetched data is: The most parent container should be the one that is responsible to fetch the data
 // to their child components
